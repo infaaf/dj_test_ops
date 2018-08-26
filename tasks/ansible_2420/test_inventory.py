@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from .inventory import BaseInventory
+from tasks.ansible_2420.inventory import BaseInventory
 
 
 def Test():
@@ -25,10 +25,10 @@ def Test():
         "vars": {"sexy": "yes"},
     }, {
         "hostname": "testserver2",
-        "ip": "192.168.188.200",
+        "ip": "192.168.188.201",
         "port": 2222,
         "username": "root",
-        "password": "password",
+        "password": "1qaz@WSX",
         "private_key": "/tmp/private_key",
         "become": {
             "method": "su",

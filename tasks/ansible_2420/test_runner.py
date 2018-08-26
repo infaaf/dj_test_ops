@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from .runner import AdHocRunner, CommandRunner
-from .inventory import BaseInventory
+from tasks.ansible_2420.runner import AdHocRunner, CommandRunner
+from tasks.ansible_2420.inventory import BaseInventory
 
 
 def TestAdHocRunner():
@@ -12,8 +12,8 @@ def TestAdHocRunner():
 
     host_data = [
         {
-            "hostname": "server",
-            "ip": "192.168.5.224",
+            "hostname": "server1",
+            "ip": "192.168.188.200",
             "port": 22,
             "username": "root",
             "password": "",
@@ -29,7 +29,7 @@ def TestAdHocRunner():
     runner = AdHocRunner(inventory)
 
     tasks = [
-        {"action": {"module": "shell", "args": "hostname"}, "name": "run_whoami"},
+        {"action": {"module": "shell", "args": "echo 1 >> /tmp/1"}, "name": "run_whoami"},
     ]
     ret = runner.run(tasks, "all")
     print(ret.results_summary)

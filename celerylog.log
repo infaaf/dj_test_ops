@@ -1,0 +1,337 @@
+[2018-08-26 21:14:30,066: INFO/MainProcess] Connected to redis://:**@127.0.0.1:6379/0
+[2018-08-26 21:14:30,077: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-26 21:14:31,107: INFO/MainProcess] mingle: all alone
+[2018-08-26 21:14:31,123: WARNING/MainProcess] /usr/local/python3/lib/python3.7/site-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-08-26 21:14:31,123: INFO/MainProcess] w1@dev200 ready.
+[2018-08-26 21:15:28,412: INFO/MainProcess] Connected to redis://:**@127.0.0.1:6379/0
+[2018-08-26 21:15:28,423: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-26 21:15:29,450: INFO/MainProcess] mingle: all alone
+[2018-08-26 21:15:29,463: WARNING/MainProcess] /usr/local/python3/lib/python3.7/site-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-08-26 21:15:29,463: INFO/MainProcess] w1@dev200 ready.
+[2018-08-26 21:16:49,477: INFO/MainProcess] Received task: tasks.tasks.ansible_test[3b9328c3-07da-4203-8ee6-73a686e79cfb]  
+[2018-08-26 21:16:49,642: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:16:49,996: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:16:50,015: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:16:50,018: WARNING/ForkPoolWorker-2] {'contacted': [], 'dark': {}}
+[2018-08-26 21:16:50,018: WARNING/ForkPoolWorker-2] {'ok': {}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:16:50,020: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[3b9328c3-07da-4203-8ee6-73a686e79cfb] succeeded in 0.536680418998003s: 'a'
+[2018-08-26 21:26:27,795: INFO/MainProcess] Connected to redis://:**@127.0.0.1:6379/0
+[2018-08-26 21:26:27,807: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-26 21:26:28,833: INFO/MainProcess] mingle: all alone
+[2018-08-26 21:26:28,849: WARNING/MainProcess] /usr/local/python3/lib/python3.7/site-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-08-26 21:26:28,849: INFO/MainProcess] w1@dev200 ready.
+[2018-08-26 21:31:00,733: INFO/MainProcess] Connected to redis://:**@127.0.0.1:6379/0
+[2018-08-26 21:31:00,746: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-26 21:31:01,772: INFO/MainProcess] mingle: all alone
+[2018-08-26 21:31:01,784: WARNING/MainProcess] /usr/local/python3/lib/python3.7/site-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-08-26 21:31:01,785: INFO/MainProcess] w1@dev200 ready.
+[2018-08-26 21:31:16,120: INFO/MainProcess] Received task: tasks.tasks.ansible_test[1d77cb51-de78-4d78-a910-e3332dce631f]  
+[2018-08-26 21:31:16,288: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:31:16,654: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:31:16,674: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:31:16,679: WARNING/ForkPoolWorker-2] {'contacted': [], 'dark': {}}
+[2018-08-26 21:31:16,679: WARNING/ForkPoolWorker-2] {'ok': {}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:31:16,682: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[1d77cb51-de78-4d78-a910-e3332dce631f] succeeded in 0.5585192200087477s: 'a'
+[2018-08-26 21:31:16,901: INFO/MainProcess] Received task: tasks.tasks.ansible_test[91b3cd7f-0dad-491f-a067-eaddc820113a]  
+[2018-08-26 21:31:17,066: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:31:17,460: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:31:17,483: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:31:17,486: WARNING/ForkPoolWorker-1] {'contacted': [], 'dark': {}}
+[2018-08-26 21:31:17,486: WARNING/ForkPoolWorker-1] {'ok': {}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:31:17,490: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[91b3cd7f-0dad-491f-a067-eaddc820113a] succeeded in 0.5859031220024917s: 'a'
+[2018-08-26 21:39:06,032: INFO/MainProcess] Connected to redis://:**@127.0.0.1:6379/0
+[2018-08-26 21:39:06,045: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-26 21:39:07,071: INFO/MainProcess] mingle: all alone
+[2018-08-26 21:39:07,085: WARNING/MainProcess] /usr/local/python3/lib/python3.7/site-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-08-26 21:39:07,085: INFO/MainProcess] w1@dev200 ready.
+[2018-08-26 21:39:20,909: INFO/MainProcess] Received task: tasks.tasks.ansible_test[cf98f473-d84c-4633-95c6-a3c0c0472d8b]  
+[2018-08-26 21:39:21,043: INFO/MainProcess] Received task: tasks.tasks.ansible_test[a315ea52-a6fa-430f-be9c-34816a957e58]  
+[2018-08-26 21:39:21,162: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:39:21,233: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:39:21,281: INFO/MainProcess] Received task: tasks.tasks.ansible_test[8abd313a-3186-48e2-9ba1-6de154779bea]  
+[2018-08-26 21:39:21,479: INFO/MainProcess] Received task: tasks.tasks.ansible_test[c2ccc5d6-0634-4031-b8c9-7a271d0cd615]  
+[2018-08-26 21:39:21,599: WARNING/ForkPoolWorker-4] in ansible run
+[2018-08-26 21:39:21,633: INFO/MainProcess] Received task: tasks.tasks.ansible_test[0c8853d6-cee8-4322-b95a-cdb93685ac6c]  
+[2018-08-26 21:39:21,761: INFO/MainProcess] Received task: tasks.tasks.ansible_test[1a1ada4e-27ce-4858-987b-b68f839dbb84]  
+[2018-08-26 21:39:21,828: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:39:21,933: INFO/MainProcess] Received task: tasks.tasks.ansible_test[4563fab5-838b-4085-95fd-bbba42251cb1]  
+[2018-08-26 21:39:21,934: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:21,991: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:22,058: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:22,092: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:22,447: WARNING/ForkPoolWorker-4] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:22,503: WARNING/ForkPoolWorker-4] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:22,668: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:22,702: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:23,772: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:39:23,777: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:23,777: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:23.671239', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:23.660984', 'stderr': '', 'delta': '0:00:00.010255', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:23,782: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[a315ea52-a6fa-430f-be9c-34816a957e58] succeeded in 2.7354356729920255s: 'a'
+[2018-08-26 21:39:23,789: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:39:23,789: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:39:23,792: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:23,792: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:23.705115', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:23.696658', 'stderr': '', 'delta': '0:00:00.008457', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:23,795: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:23,801: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:39:23,807: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:23,807: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[c2ccc5d6-0634-4031-b8c9-7a271d0cd615] succeeded in 2.324085173997446s: 'a'
+[2018-08-26 21:39:23,808: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:23.682132', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:23.670466', 'stderr': '', 'delta': '0:00:00.011666', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:23,809: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:23,810: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[cf98f473-d84c-4633-95c6-a3c0c0472d8b] succeeded in 2.89547326999309s: 'a'
+[2018-08-26 21:39:23,815: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:39:23,817: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:39:23,820: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:23,823: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:23,830: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:23,833: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:24,048: WARNING/ForkPoolWorker-4] changed: [server1]
+[2018-08-26 21:39:24,052: WARNING/ForkPoolWorker-4] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:24,052: WARNING/ForkPoolWorker-4] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:23.943468', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:23.937456', 'stderr': '', 'delta': '0:00:00.006012', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:24,055: INFO/ForkPoolWorker-4] Task tasks.tasks.ansible_test[8abd313a-3186-48e2-9ba1-6de154779bea] succeeded in 2.7715618350048317s: 'a'
+[2018-08-26 21:39:24,579: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:39:24,580: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:39:24,582: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:24,582: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:24.490218', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:24.482926', 'stderr': '', 'delta': '0:00:00.007292', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:24,583: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[4563fab5-838b-4085-95fd-bbba42251cb1] succeeded in 0.7698350709979422s: 'a'
+[2018-08-26 21:39:24,583: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:24,584: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:24.494928', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:24.488098', 'stderr': '', 'delta': '0:00:00.006830', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:24,585: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[0c8853d6-cee8-4322-b95a-cdb93685ac6c] succeeded in 0.8003687629970955s: 'a'
+[2018-08-26 21:39:24,591: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:39:24,594: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:24,594: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:24.497226', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:24.488967', 'stderr': '', 'delta': '0:00:00.008259', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:24,596: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[1a1ada4e-27ce-4858-987b-b68f839dbb84] succeeded in 0.7849629030097276s: 'a'
+[2018-08-26 21:39:49,594: INFO/MainProcess] Received task: tasks.tasks.ansible_test[220548fc-d43c-46de-9727-7bc308be5fae]  
+[2018-08-26 21:39:49,609: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:39:49,626: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:39:49,647: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:39:50,195: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:39:50,201: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:39:50,202: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:39:50.132743', 'stdout': '', 'cmd': 'echo 1 > /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:39:50.127020', 'stderr': '', 'delta': '0:00:00.005723', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 > /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:39:50,205: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[220548fc-d43c-46de-9727-7bc308be5fae] succeeded in 0.6053195360000245s: 'a'
+[2018-08-26 21:41:10,093: INFO/MainProcess] Received task: tasks.tasks.ansible_test[f2e7694a-70d8-40af-aa7d-339581d13109]  
+[2018-08-26 21:41:10,102: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:41:10,115: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:10,130: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:10,698: INFO/MainProcess] Received task: tasks.tasks.ansible_test[cc4650de-f1c4-473c-922d-a85e1c20ed79]  
+[2018-08-26 21:41:10,711: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:41:10,720: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:10,735: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:10,856: INFO/MainProcess] Received task: tasks.tasks.ansible_test[3f39c7f7-05bc-44dc-bfdc-44a6f1e5e5ad]  
+[2018-08-26 21:41:10,874: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:41:10,888: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:10,905: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:11,004: INFO/MainProcess] Received task: tasks.tasks.ansible_test[91913dc9-4444-463e-880f-55fd21bc1e43]  
+[2018-08-26 21:41:11,020: WARNING/ForkPoolWorker-4] in ansible run
+[2018-08-26 21:41:11,026: WARNING/ForkPoolWorker-4] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:11,042: WARNING/ForkPoolWorker-4] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:11,074: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:41:11,077: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:11,077: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:10.926074', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:10.918698', 'stderr': '', 'delta': '0:00:00.007376', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:11,079: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[f2e7694a-70d8-40af-aa7d-339581d13109] succeeded in 0.982530847992166s: 'a'
+[2018-08-26 21:41:11,140: INFO/MainProcess] Received task: tasks.tasks.ansible_test[22a04831-c882-441b-9007-2344458f1dae]  
+[2018-08-26 21:41:11,162: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:41:11,172: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:11,188: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:11,288: INFO/MainProcess] Received task: tasks.tasks.ansible_test[0c1685e7-3a92-4d85-9cbd-f1b20e4792b4]  
+[2018-08-26 21:41:11,422: INFO/MainProcess] Received task: tasks.tasks.ansible_test[35b88e9b-e2e8-4ac6-b475-23e4238cdd26]  
+[2018-08-26 21:41:11,600: INFO/MainProcess] Received task: tasks.tasks.ansible_test[a0e106b1-7f58-44ec-9648-8cb7f18f6f1e]  
+[2018-08-26 21:41:11,978: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:41:11,982: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:11,982: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:11.854659', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:11.846322', 'stderr': '', 'delta': '0:00:00.008337', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:11,985: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[cc4650de-f1c4-473c-922d-a85e1c20ed79] succeeded in 1.28148838999914s: 'a'
+[2018-08-26 21:41:11,993: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:41:12,001: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:12,012: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:12,070: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:41:12,073: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:12,073: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:11.954208', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:11.945902', 'stderr': '', 'delta': '0:00:00.008306', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:12,075: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[3f39c7f7-05bc-44dc-bfdc-44a6f1e5e5ad] succeeded in 1.2163203800009796s: 'a'
+[2018-08-26 21:41:12,081: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:41:12,087: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:12,096: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:12,123: WARNING/ForkPoolWorker-4] changed: [server1]
+[2018-08-26 21:41:12,141: WARNING/ForkPoolWorker-4] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:12,142: WARNING/ForkPoolWorker-4] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:12.011487', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:11.994017', 'stderr': '', 'delta': '0:00:00.017470', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:12,144: INFO/ForkPoolWorker-4] Task tasks.tasks.ansible_test[91913dc9-4444-463e-880f-55fd21bc1e43] succeeded in 1.1381244219955988s: 'a'
+[2018-08-26 21:41:12,149: WARNING/ForkPoolWorker-4] in ansible run
+[2018-08-26 21:41:12,155: WARNING/ForkPoolWorker-4] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:12,165: WARNING/ForkPoolWorker-4] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:12,235: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:41:12,237: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:12,238: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:12.119984', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:12.112901', 'stderr': '', 'delta': '0:00:00.007083', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:12,239: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[22a04831-c882-441b-9007-2344458f1dae] succeeded in 1.0905186970048817s: 'a'
+[2018-08-26 21:41:12,341: INFO/MainProcess] Received task: tasks.tasks.ansible_test[e9575dec-21d2-4503-bf9c-22da9a61bae7]  
+[2018-08-26 21:41:12,359: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:41:12,368: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:12,381: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:12,468: INFO/MainProcess] Received task: tasks.tasks.ansible_test[1820c8b4-f5f5-4c8b-b050-e369ce5e707a]  
+[2018-08-26 21:41:12,606: INFO/MainProcess] Received task: tasks.tasks.ansible_test[8a17287f-37c3-4fe1-8217-bf7885be2275]  
+[2018-08-26 21:41:12,746: INFO/MainProcess] Received task: tasks.tasks.ansible_test[adf40a53-4336-489b-bac8-dc4b66fb75bb]  
+[2018-08-26 21:41:12,930: INFO/MainProcess] Received task: tasks.tasks.ansible_test[171b642f-b64f-4feb-9425-84252504bdcb]  
+[2018-08-26 21:41:13,132: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:41:13,138: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:13,139: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:13.029769', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:13.021301', 'stderr': '', 'delta': '0:00:00.008468', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:13,140: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[0c1685e7-3a92-4d85-9cbd-f1b20e4792b4] succeeded in 1.1528443959978176s: 'a'
+[2018-08-26 21:41:13,151: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:41:13,159: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:13,168: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:13,253: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:41:13,263: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:13,272: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:13.149859', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:13.143372', 'stderr': '', 'delta': '0:00:00.006487', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:13,274: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[35b88e9b-e2e8-4ac6-b475-23e4238cdd26] succeeded in 1.1970549990073778s: 'a'
+[2018-08-26 21:41:13,281: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:41:13,289: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:13,301: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:13,307: WARNING/ForkPoolWorker-4] changed: [server1]
+[2018-08-26 21:41:13,324: WARNING/ForkPoolWorker-4] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:13,325: WARNING/ForkPoolWorker-4] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:13.212635', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:13.206456', 'stderr': '', 'delta': '0:00:00.006179', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:13,326: INFO/ForkPoolWorker-4] Task tasks.tasks.ansible_test[a0e106b1-7f58-44ec-9648-8cb7f18f6f1e] succeeded in 1.1802349469944602s: 'a'
+[2018-08-26 21:41:13,333: WARNING/ForkPoolWorker-4] in ansible run
+[2018-08-26 21:41:13,342: WARNING/ForkPoolWorker-4] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:13,351: WARNING/ForkPoolWorker-4] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:13,536: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:41:13,539: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:13,539: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:13.435077', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:13.429486', 'stderr': '', 'delta': '0:00:00.005591', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:13,542: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[e9575dec-21d2-4503-bf9c-22da9a61bae7] succeeded in 1.1867848849942675s: 'a'
+[2018-08-26 21:41:13,552: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:41:13,558: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:13,573: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:13,959: INFO/MainProcess] Received task: tasks.tasks.ansible_test[32f4258c-a803-4dae-9596-3ddd90735bff]  
+[2018-08-26 21:41:14,129: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:41:14,132: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:14,132: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:14.014323', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:14.001141', 'stderr': '', 'delta': '0:00:00.013182', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:14,134: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[1820c8b4-f5f5-4c8b-b050-e369ce5e707a] succeeded in 0.9878507249959512s: 'a'
+[2018-08-26 21:41:14,141: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:41:14,147: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:14,166: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:14,169: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:41:14,176: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:14,176: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:14.073049', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:14.065895', 'stderr': '', 'delta': '0:00:00.007154', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:14,177: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[8a17287f-37c3-4fe1-8217-bf7885be2275] succeeded in 0.9001457790000131s: 'a'
+[2018-08-26 21:41:14,200: WARNING/ForkPoolWorker-4] changed: [server1]
+[2018-08-26 21:41:14,204: WARNING/ForkPoolWorker-4] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:14,205: WARNING/ForkPoolWorker-4] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:14.110754', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:14.101884', 'stderr': '', 'delta': '0:00:00.008870', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:14,206: INFO/ForkPoolWorker-4] Task tasks.tasks.ansible_test[adf40a53-4336-489b-bac8-dc4b66fb75bb] succeeded in 0.8777171729889233s: 'a'
+[2018-08-26 21:41:14,427: INFO/MainProcess] Received task: tasks.tasks.ansible_test[b11082db-ac86-4b0e-993c-f6f8b13f263b]  
+[2018-08-26 21:41:14,446: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:41:14,458: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:14,480: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:14,600: INFO/MainProcess] Received task: tasks.tasks.ansible_test[91d6c73d-b809-4c5d-b9d0-e2350d078172]  
+[2018-08-26 21:41:14,629: WARNING/ForkPoolWorker-4] in ansible run
+[2018-08-26 21:41:14,636: WARNING/ForkPoolWorker-4] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:14,669: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:41:14,679: WARNING/ForkPoolWorker-4] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:14,684: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:14,684: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:14.515811', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:14.503421', 'stderr': '', 'delta': '0:00:00.012390', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:14,686: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[171b642f-b64f-4feb-9425-84252504bdcb] succeeded in 1.1375998460134724s: 'a'
+[2018-08-26 21:41:14,760: INFO/MainProcess] Received task: tasks.tasks.ansible_test[08aa4f2f-1440-45b3-8d32-010bc8f9d775]  
+[2018-08-26 21:41:14,766: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:41:14,776: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:14,816: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:14,977: INFO/MainProcess] Received task: tasks.tasks.ansible_test[3f8a08ed-e361-40ac-953a-ff8624d49dc1]  
+[2018-08-26 21:41:15,076: INFO/MainProcess] Received task: tasks.tasks.ansible_test[41b62418-71ef-4cca-806a-e4e1f070efd9]  
+[2018-08-26 21:41:15,190: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:41:15,192: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:15,193: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:14.995101', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:14.984017', 'stderr': '', 'delta': '0:00:00.011084', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:15,194: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[32f4258c-a803-4dae-9596-3ddd90735bff] succeeded in 1.0575458800012711s: 'a'
+[2018-08-26 21:41:15,201: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:41:15,210: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:15,222: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:15,625: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:41:15,637: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:15,637: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:15.505870', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:15.498546', 'stderr': '', 'delta': '0:00:00.007324', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:15,642: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[b11082db-ac86-4b0e-993c-f6f8b13f263b] succeeded in 1.2004398830031278s: 'a'
+[2018-08-26 21:41:15,652: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:41:15,665: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:15,678: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:15,776: WARNING/ForkPoolWorker-4] changed: [server1]
+[2018-08-26 21:41:15,780: WARNING/ForkPoolWorker-4] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:15,780: WARNING/ForkPoolWorker-4] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:15.643451', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:15.637499', 'stderr': '', 'delta': '0:00:00.005952', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:15,782: INFO/ForkPoolWorker-4] Task tasks.tasks.ansible_test[91d6c73d-b809-4c5d-b9d0-e2350d078172] succeeded in 1.1806163700093748s: 'a'
+[2018-08-26 21:41:15,820: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:41:15,823: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:15,823: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:15.688344', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:15.681044', 'stderr': '', 'delta': '0:00:00.007300', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:15,825: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[08aa4f2f-1440-45b3-8d32-010bc8f9d775] succeeded in 1.0630545949970838s: 'a'
+[2018-08-26 21:41:16,158: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:41:16,162: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:16,162: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:16.064623', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:16.058749', 'stderr': '', 'delta': '0:00:00.005874', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:16,164: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[3f8a08ed-e361-40ac-953a-ff8624d49dc1] succeeded in 0.9678191899874946s: 'a'
+[2018-08-26 21:41:16,391: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:41:16,394: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:16,394: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:16.320520', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:16.315509', 'stderr': '', 'delta': '0:00:00.005011', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:16,396: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[41b62418-71ef-4cca-806a-e4e1f070efd9] succeeded in 0.7513452199927997s: 'a'
+[2018-08-26 21:41:16,405: INFO/MainProcess] Received task: tasks.tasks.ansible_test[c3ae18da-93a1-4f77-b0e7-cf57e92dd158]  
+[2018-08-26 21:41:16,414: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:41:16,427: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:16,442: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:16,971: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:41:16,974: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:16,975: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:16.909463', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:16.904916', 'stderr': '', 'delta': '0:00:00.004547', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:16,976: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[c3ae18da-93a1-4f77-b0e7-cf57e92dd158] succeeded in 0.5676718600007007s: 'a'
+[2018-08-26 21:41:47,349: INFO/MainProcess] Connected to redis://:**@127.0.0.1:6379/0
+[2018-08-26 21:41:47,363: INFO/MainProcess] mingle: searching for neighbors
+[2018-08-26 21:41:48,391: INFO/MainProcess] mingle: all alone
+[2018-08-26 21:41:48,405: WARNING/MainProcess] /usr/local/python3/lib/python3.7/site-packages/celery/fixups/django.py:200: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2018-08-26 21:41:48,405: INFO/MainProcess] w1@dev200 ready.
+[2018-08-26 21:41:56,055: INFO/MainProcess] Received task: tasks.tasks.ansible_test[8fdb7dff-dbef-4065-b3f3-f3b10ce1455b]  
+[2018-08-26 21:41:56,218: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:41:56,230: INFO/MainProcess] Received task: tasks.tasks.ansible_test[794d5e82-a0e3-4057-a662-f08c3ef64b3c]  
+[2018-08-26 21:41:56,367: INFO/MainProcess] Received task: tasks.tasks.ansible_test[78c94587-4673-423c-acd0-cd7ad783a46b]  
+[2018-08-26 21:41:56,513: INFO/MainProcess] Received task: tasks.tasks.ansible_test[e3d93a50-7b25-417b-8ff8-c2b4dc3ccbad]  
+[2018-08-26 21:41:56,527: WARNING/ForkPoolWorker-1] in ansible run
+[2018-08-26 21:41:56,663: INFO/MainProcess] Received task: tasks.tasks.ansible_test[595de1a7-8db6-47ee-a85a-1abe75216aa5]  
+[2018-08-26 21:41:56,719: WARNING/ForkPoolWorker-4] in ansible run
+[2018-08-26 21:41:56,797: INFO/MainProcess] Received task: tasks.tasks.ansible_test[9fc2dee2-68ed-4082-9354-055eb7750f2a]  
+[2018-08-26 21:41:56,834: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:41:56,983: INFO/MainProcess] Received task: tasks.tasks.ansible_test[43209993-bca6-44c3-ad16-37ec971b26d1]  
+[2018-08-26 21:41:57,142: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:57,174: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:57,333: WARNING/ForkPoolWorker-1] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:57,359: WARNING/ForkPoolWorker-1] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:57,502: WARNING/ForkPoolWorker-4] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:57,549: WARNING/ForkPoolWorker-4] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:57,568: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:57,611: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:58,415: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:41:58,419: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:58,420: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:58.322697', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:58.313965', 'stderr': '', 'delta': '0:00:00.008732', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:58,430: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[8fdb7dff-dbef-4065-b3f3-f3b10ce1455b] succeeded in 2.3700547690095846s: 'a'
+[2018-08-26 21:41:58,445: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:41:58,449: WARNING/ForkPoolWorker-2] in ansible run
+[2018-08-26 21:41:58,452: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:58,454: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:58.329520', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:58.315694', 'stderr': '', 'delta': '0:00:00.013826', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:58,463: WARNING/ForkPoolWorker-2] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:58,472: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[e3d93a50-7b25-417b-8ff8-c2b4dc3ccbad] succeeded in 1.9430433840025216s: 'a'
+[2018-08-26 21:41:58,481: WARNING/ForkPoolWorker-4] changed: [server1]
+[2018-08-26 21:41:58,483: WARNING/ForkPoolWorker-3] in ansible run
+[2018-08-26 21:41:58,495: WARNING/ForkPoolWorker-2] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:58,495: WARNING/ForkPoolWorker-4] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:58,496: WARNING/ForkPoolWorker-4] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:58.345339', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:58.340437', 'stderr': '', 'delta': '0:00:00.004902', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:58,499: INFO/ForkPoolWorker-4] Task tasks.tasks.ansible_test[78c94587-4673-423c-acd0-cd7ad783a46b] succeeded in 2.128820171987172s: 'a'
+[2018-08-26 21:41:58,502: WARNING/ForkPoolWorker-3] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:58,527: WARNING/ForkPoolWorker-4] in ansible run
+[2018-08-26 21:41:58,535: WARNING/ForkPoolWorker-4] PLAY [Ansible Ad-hoc] **********************************************************
+[2018-08-26 21:41:58,543: WARNING/ForkPoolWorker-3] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:58,549: WARNING/ForkPoolWorker-4] TASK [run_whoami] **************************************************************
+[2018-08-26 21:41:58,608: WARNING/ForkPoolWorker-1] changed: [server1]
+[2018-08-26 21:41:58,614: WARNING/ForkPoolWorker-1] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:58,614: WARNING/ForkPoolWorker-1] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:58.450630', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:58.432773', 'stderr': '', 'delta': '0:00:00.017857', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:58,617: INFO/ForkPoolWorker-1] Task tasks.tasks.ansible_test[794d5e82-a0e3-4057-a662-f08c3ef64b3c] succeeded in 2.381616558996029s: 'a'
+[2018-08-26 21:41:59,228: WARNING/ForkPoolWorker-2] changed: [server1]
+[2018-08-26 21:41:59,232: WARNING/ForkPoolWorker-2] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:59,232: WARNING/ForkPoolWorker-2] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:59.142458', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:59.137144', 'stderr': '', 'delta': '0:00:00.005314', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:59,236: INFO/ForkPoolWorker-2] Task tasks.tasks.ansible_test[595de1a7-8db6-47ee-a85a-1abe75216aa5] succeeded in 0.7991746269981377s: 'a'
+[2018-08-26 21:41:59,253: WARNING/ForkPoolWorker-3] changed: [server1]
+[2018-08-26 21:41:59,264: WARNING/ForkPoolWorker-3] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:59,264: WARNING/ForkPoolWorker-3] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:59.164481', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:59.157851', 'stderr': '', 'delta': '0:00:00.006630', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:59,266: INFO/ForkPoolWorker-3] Task tasks.tasks.ansible_test[9fc2dee2-68ed-4082-9354-055eb7750f2a] succeeded in 0.7879286060051527s: 'a'
+[2018-08-26 21:41:59,298: WARNING/ForkPoolWorker-4] changed: [server1]
+[2018-08-26 21:41:59,303: WARNING/ForkPoolWorker-4] {'contacted': ['server1'], 'dark': {}}
+[2018-08-26 21:41:59,303: WARNING/ForkPoolWorker-4] {'ok': {'server1': {'run_whoami': {'changed': True, 'end': '2018-08-26 21:41:59.193936', 'stdout': '', 'cmd': 'echo 1 >> /tmp/log3', 'rc': 0, 'start': '2018-08-26 21:41:59.187609', 'stderr': '', 'delta': '0:00:00.006327', 'invocation': {'module_args': {'creates': None, 'executable': None, '_uses_shell': True, '_raw_params': 'echo 1 >> /tmp/log3', 'removes': None, 'argv': None, 'warn': True, 'chdir': None, 'stdin': None}}, '_ansible_parsed': True, 'stdout_lines': [], 'stderr_lines': [], '_ansible_no_log': False}}}, 'failed': {}, 'unreachable': {}, 'skipped': {}}
+[2018-08-26 21:41:59,306: INFO/ForkPoolWorker-4] Task tasks.tasks.ansible_test[43209993-bca6-44c3-ad16-37ec971b26d1] succeeded in 0.7872420450003119s: 'a'
