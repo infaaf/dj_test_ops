@@ -485,3 +485,62 @@ celery.exceptions.TimeoutError: The operation timed out.
 20180826 14:46:53 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
 20180826 14:47:00 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
 20180826 14:47:01 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
+20180826 15:11:49 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 15:12:00 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 15:12:21 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 16:17:33 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 19, in index
+    print(r.get(timeoout=3))
+TypeError: get() got an unexpected keyword argument 'timeoout'
+20180826 16:17:33 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 66265
+20180826 16:17:44 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 19, in index
+    print(r.get(timeoout=3))
+TypeError: get() got an unexpected keyword argument 'timeoout'
+20180826 16:17:44 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 66400
+20180826 16:17:54 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 16:23:44 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 16:25:56 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 16:29:49 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 16:51:16 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 16:55:30 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 17:00:54 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 17:00:54 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 17:02:45 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 17:02:55 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:44:56 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:44:56 [WARNING] log/log.py[line:228] Not Found: /favicon.ico
+20180826 19:44:56 [WARNING] basehttp/basehttp.py[line:124] "GET /favicon.ico HTTP/1.1" 404 2185
+20180826 19:45:28 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:45:28 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:45:28 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:45:28 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:45:28 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:45:28 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:48:14 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:50:30 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:50:36 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:57:15 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:57:59 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 19:58:42 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 20:03:49 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 20:04:09 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 20:04:57 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 20:05:10 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 20:12:59 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 20:24:24 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1
+20180826 20:24:30 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 1

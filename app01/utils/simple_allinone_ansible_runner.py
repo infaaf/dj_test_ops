@@ -51,7 +51,7 @@ class MyInventory():
         elif isinstance(resource, dict):
             # logging.info('parsing resuorce: %s'%(self.resource))
             for groupname, hosts_and_groupvars in self.resource.items():
-                print("[1] groupname: %s |hostsandvars: %s" % (groupname, hosts_and_groupvars))  # debug [1]
+                print("[1] groupname: %s |hostsandvars: %s" % (groupname, hosts_and_groupvars))                          # debug [1]
                 self._addGroupHosts(hosts_and_groupvars.get('hosts'), groupname, hosts_and_groupvars.get('groupvars'))
 
         else:
@@ -167,7 +167,7 @@ class Runner():
                                          'scp_extra_args', 'become', 'become_method', 'become_user', 'ask_value_pass',
                                          'verbosity',
                                          'check', 'listhosts', 'listtasks', 'listtags', 'syntax', 'diff'])
-        self.options = Options(connection='smart', module_path=None, forks=100, timeout=10,
+        self.options = Options(connection='smart', module_path=None, forks=20, timeout=10,
                                remote_user='root', ask_pass=False, private_key_file=None, ssh_common_args=None,
                                ssh_extra_args=None,
                                sftp_extra_args=None, scp_extra_args=None, become=None, become_method=None,
@@ -185,7 +185,9 @@ class Runner():
     def run_model(self, host_list, module_name, module_args):
         """
         ansible group1 -m shell -a 'ls /tmp'
+
         """
+        print(" in  run model")
         self.callback = ADhocCallback()
         play_source = dict(
             name="Ansible Play",
@@ -194,20 +196,28 @@ class Runner():
             tasks=[dict(action=dict(module=module_name, args=module_args))]
         )
         play = Play().load(play_source, variable_manager=self.variable_manager, loader=self.loader)
-        tqm = None
+
+        tqm = TaskQueueManager(
+            inventory=self.inventory,
+            variable_manager=self.variable_manager,
+            loader=self.loader,
+            options=self.options,
+            passwords=self.passwords,
+            stdout_callback="minimal",
+        )
+        print(tqm)
+        print(dir(play))
+        print(play.get_tasks())
+        print(play.get_name())
+        print(play.get_vars())
+        print(play.get_roles())
+
         try:
-            tqm = TaskQueueManager(
-                inventory=self.inventory,
-                variable_manager=self.variable_manager,
-                loader=self.loader,
-                options=self.options,
-                passwords=self.passwords,
-                stdout_callback="minimal",
-            )
             tqm._stdout_callback = self.callback
             constants.HOST_KEY_CHECKING = False  # 关闭第一次使用ansible连接客户端是输入命令
             tqm.run(play)
             self.results_raw = self.callback.result_row
+            print("[2] %s"%self.results_raw)                                                                      # debug 2
         except Exception as err:
             print(err)
         finally:
@@ -285,13 +295,12 @@ def _example4():
     resource = {
         'group1': {'hosts': [{'hostid': '123', 'hostname': 'h1', 'hostip': '192.168.188.200', 'username': 'root',
                               'password': 'admin', 'port': '22', 'sshkey': '', 'k1': 'v1'},
-                             {'hostid': '223', 'hostname': 'h2', 'hostip': '192.168.188.201', 'username': 'root',
-                              'password': '1qaz@WSX', 'port': '22', 'sshkey': '', },
                              ],
                    'groupvars': {"g1key": "g1value"}},
         }
     runner = Runner(resource)
-    runner.run_model(host_list=['h2'], module_name='shell', module_args='ls /tmp')
+    # runner.run_model(host_list=['h1'], module_name='shell', module_args='ls /tmp')
+    runner.run_model(host_list=['h1'], module_name='shell', module_args='echo 1 >> /tmp/log2')
     result = runner.results_raw
     print(result)
 
@@ -301,3 +310,5 @@ if __name__ == '__main__':
     # _example2()
     # _example3()
     _example4()
+
+    # print(1)
