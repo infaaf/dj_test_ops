@@ -128,6 +128,13 @@ STATICFILES_DIRS=(
 )
 
 
+### celery
+CELERY_BROKER_URL = 'redis://:pwd@127.0.0.1:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_RESULT_BACKEND = 'redis://:pwd@127.0.0.1:6379/0'
+CELERY_TASK_SERIALIZER = 'json'
+
+
 LOG_LEVEL='DEBUG'
 LOGGING = {
     'version': 1,

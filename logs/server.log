@@ -1,2 +1,487 @@
 20180819 10:00:21 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 19
 20180819 10:00:37 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 19
+20180826 13:57:11 [WARNING] log/log.py[line:228] Not Found: /
+20180826 13:57:11 [WARNING] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 404 2034
+20180826 13:57:13 [WARNING] log/log.py[line:228] Not Found: /favicon.ico
+20180826 13:57:13 [WARNING] basehttp/basehttp.py[line:124] "GET /favicon.ico HTTP/1.1" 404 2085
+20180826 13:57:13 [WARNING] log/log.py[line:228] Not Found: /favicon.ico
+20180826 13:57:13 [WARNING] basehttp/basehttp.py[line:124] "GET /favicon.ico HTTP/1.1" 404 2085
+20180826 13:57:24 [WARNING] log/log.py[line:228] Not Found: /
+20180826 13:57:24 [WARNING] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 404 2034
+20180826 13:57:24 [WARNING] log/log.py[line:228] Not Found: /favicon.ico
+20180826 13:57:24 [WARNING] basehttp/basehttp.py[line:124] "GET /favicon.ico HTTP/1.1" 404 2085
+20180826 13:57:31 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
+20180826 13:57:57 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 13:57:59 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 14:29:43 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 14:30:08 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 14:30:18 [INFO] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 200 3
+20180826 14:32:22 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 11, in index
+    print('ready?',r.ready())
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 311, in ready
+    return self.state in self.backend.READY_STATES
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 471, in state
+    return self._get_task_meta()['status']
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 410, in _get_task_meta
+    return self._maybe_set_cache(self.backend.get_task_meta(self.id))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 365, in get_task_meta
+    meta = self._get_task_meta_for(task_id)
+AttributeError: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+20180826 14:32:22 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81043
+20180826 14:32:43 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 11, in index
+    print('ready?',r.ready())
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 311, in ready
+    return self.state in self.backend.READY_STATES
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 471, in state
+    return self._get_task_meta()['status']
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 410, in _get_task_meta
+    return self._maybe_set_cache(self.backend.get_task_meta(self.id))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 365, in get_task_meta
+    meta = self._get_task_meta_for(task_id)
+AttributeError: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+20180826 14:32:43 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81043
+20180826 14:32:46 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 11, in index
+    print('ready?',r.ready())
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 311, in ready
+    return self.state in self.backend.READY_STATES
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 471, in state
+    return self._get_task_meta()['status']
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 410, in _get_task_meta
+    return self._maybe_set_cache(self.backend.get_task_meta(self.id))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 365, in get_task_meta
+    meta = self._get_task_meta_for(task_id)
+AttributeError: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+20180826 14:32:46 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81043
+20180826 14:32:56 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 11, in index
+    print('ready?',r.ready())
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 311, in ready
+    return self.state in self.backend.READY_STATES
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 471, in state
+    return self._get_task_meta()['status']
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 410, in _get_task_meta
+    return self._maybe_set_cache(self.backend.get_task_meta(self.id))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 365, in get_task_meta
+    meta = self._get_task_meta_for(task_id)
+AttributeError: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+20180826 14:32:56 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81045
+20180826 14:34:54 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 11, in index
+    print(r.ready())
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 311, in ready
+    return self.state in self.backend.READY_STATES
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 471, in state
+    return self._get_task_meta()['status']
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 410, in _get_task_meta
+    return self._maybe_set_cache(self.backend.get_task_meta(self.id))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 365, in get_task_meta
+    meta = self._get_task_meta_for(task_id)
+AttributeError: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+20180826 14:34:54 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81011
+20180826 14:35:16 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 476, in wait_for_pending
+    no_ack=no_ack,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 779, in _is_disabled
+    raise NotImplementedError(E_NO_BACKEND.strip())
+NotImplementedError: No result backend is configured.
+Please see the documentation for more information.
+20180826 14:35:16 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 80849
+20180826 14:36:03 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 476, in wait_for_pending
+    no_ack=no_ack,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 779, in _is_disabled
+    raise NotImplementedError(E_NO_BACKEND.strip())
+NotImplementedError: No result backend is configured.
+Please see the documentation for more information.
+20180826 14:36:03 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81004
+20180826 14:36:07 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 476, in wait_for_pending
+    no_ack=no_ack,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 779, in _is_disabled
+    raise NotImplementedError(E_NO_BACKEND.strip())
+NotImplementedError: No result backend is configured.
+Please see the documentation for more information.
+20180826 14:36:07 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81004
+20180826 14:36:09 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 476, in wait_for_pending
+    no_ack=no_ack,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 779, in _is_disabled
+    raise NotImplementedError(E_NO_BACKEND.strip())
+NotImplementedError: No result backend is configured.
+Please see the documentation for more information.
+20180826 14:36:09 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81004
+20180826 14:36:10 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 476, in wait_for_pending
+    no_ack=no_ack,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/base.py", line 779, in _is_disabled
+    raise NotImplementedError(E_NO_BACKEND.strip())
+NotImplementedError: No result backend is configured.
+Please see the documentation for more information.
+20180826 14:36:10 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 81004
+20180826 14:37:49 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:37:49 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91233
+20180826 14:37:52 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:37:52 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91233
+20180826 14:37:53 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:37:53 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91234
+20180826 14:38:01 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:38:01 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91233
+20180826 14:38:03 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:38:03 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91234
+20180826 14:39:30 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:39:30 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91502
+20180826 14:40:14 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 12, in index
+    print(r.get(timeout=2))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:40:14 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91502
+20180826 14:40:41 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 14, in index
+    print(r.get(timeout=3))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:40:41 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91684
+20180826 14:40:43 [ERROR] log/log.py[line:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 14, in index
+    print(r.get(timeout=3))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:40:43 [ERROR] basehttp/basehttp.py[line:124] "GET / HTTP/1.1" 500 91688
+20180826 14:41:36 [ERROR] log/log.py[line:228] Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 255, in _wait_for_pending
+    on_interval=on_interval):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 54, in drain_events_until
+    raise socket.timeout()
+socket.timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/PycharmProjects/dj_test/app01/views.py", line 14, in index
+    print(r.get(timeout=3))
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/result.py", line 224, in get
+    on_message=on_message,
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 188, in wait_for_pending
+    for _ in self._wait_for_pending(result, **kwargs):
+  File "/usr/local/python3/lib/python3.7/site-packages/celery/backends/async.py", line 259, in _wait_for_pending
+    raise TimeoutError('The operation timed out.')
+celery.exceptions.TimeoutError: The operation timed out.
+20180826 14:41:36 [ERROR] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 500 91618
+20180826 14:44:55 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
+20180826 14:46:53 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
+20180826 14:47:00 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
+20180826 14:47:01 [INFO] basehttp/basehttp.py[line:124] "GET /index/ HTTP/1.1" 200 3
