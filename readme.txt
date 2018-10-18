@@ -1,6 +1,7 @@
 ansible 与 celery 调试通过。
 
-#ansible2.4+ api 
+#ansible2.4+ api  
+# ansible很易用，但是调用api 2.4的比2.0复杂很多。。。
 # celery 异步
 
 install redis
